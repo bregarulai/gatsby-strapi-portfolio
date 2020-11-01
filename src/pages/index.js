@@ -17,7 +17,7 @@ export default ({ data }) => {
       <Services />
       <Jobs />
       <Projects projects={projects} title="featured projects" showLink />
-      <Blogs blogs={blogs} title="blog" showLink />
+      <Blogs blogs={blogs} title="latest blogs" showLink />
     </Layout>
   )
 }
@@ -51,7 +51,6 @@ export const query = graphql`
         slug
         title
         description
-        content
         date(formatString: "MMMM Do, YYYY")
         category
         image {
