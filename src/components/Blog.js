@@ -28,6 +28,14 @@ const Blog = ({
   )
 }
 
-Blog.propTypes = {}
+Blog.propTypes = {
+  strapiId: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  image: PropTypes.object.isRequired,
+  date: PropTypes.string.isRequired,
+  slug: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
+}
 
 export default Blog
