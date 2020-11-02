@@ -498,6 +498,7 @@ Hero
 
 .hero-info h4 {
   color: var(--clr-grey-5);
+  width: 15rem;
 }
 
 .hero-icons {
